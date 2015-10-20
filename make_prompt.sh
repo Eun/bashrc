@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 OUTFILE="/tmp/$$.bashrc.generated"
 echo > $OUTFILE
 echo "######### PROMPT v2.0 #########" >> $OUTFILE
