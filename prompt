@@ -1,6 +1,15 @@
 if [ -z "${PS1_INITIALIZED+1}" ]; then
     PS1_INITIALIZED=1
 
+    #export SOCKS_SERVER=192.168.1.2:1080
+    #export socks_server=192.168.1.2:1080
+    #export HTTP_PROXY=http://192.168.1.2:3128
+    #export http_proxy=http://192.168.1.2:3128
+    #export HTTPS_PROXY=http://192.168.1.2:3128
+    #export https_proxy=http://192.168.1.2:3128
+    #export FTP_PROXY=http://192.168.1.2:3128
+    #export ftp_proxy=http://192.168.1.2:3128
+
     # color some programms
     alias grep='grep --color'
     alias egrep='egrep --color=auto'
